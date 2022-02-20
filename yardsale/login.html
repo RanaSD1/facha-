@@ -7,26 +7,24 @@
     <link rel="stylesheet" href="./css/main.css">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;700&family=Roboto:wght@700&display=swap" rel="stylesheet">
-    <title>Document</title>
+    <title>Login</title>
 </head>
 <body>
     <main>
-        <div class="login-container">
-            <img src="./icons/logo_yard_sale.svg" alt="">
+        <div class="login">
+            <img class="login__logo" src="./icons/logo_yard_sale.svg" alt="">
+            <div class="login__container">
+                <label for="email">Email address</label>
+                <input type="email" placeholder="camilayakoo@gmail.com">
 
-            <div>
-                <label for=""></label>
-                <input type="text">
+                <label for="password">Password</label>
+                <input type="password" placeholder="************">
 
-                <label for=""></label>
-                <input type="text">
-
-                <button></button>
-
-                <p></p>
+                <button>Log in</button>
+                <a href="/">Forgot password</a>
             </div>
+            <button class="login__sign-up">Sign up</button>
         </div>
-        <button class="signup-button" type="button">Sign up</button>
     </main>
 </body>
 </html>
