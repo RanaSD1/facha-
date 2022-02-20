@@ -1,0 +1,1 @@
+Hola corregi algunas cosas de login, la maquetacion esta bien pero hice algunas configuraciones
